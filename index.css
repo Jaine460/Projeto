@@ -1,0 +1,170 @@
+header {
+    background-color: #8C0303;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+  }
+  
+  header a {
+    color: #F2D8C9;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  header a:hover {
+    font-size: 16px;
+    color: #A67244;
+  }
+  
+  @media (max-width: 600px) {
+    header a {
+      font-size: 10px; /* Reduz o tamanho da fonte para telas pequenas */
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 1024px) {
+    header a {
+      font-size: 12px; /* Tamanho da fonte para telas médias */
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    header a {
+      font-size: 15px; /* Tamanho da fonte para telas grandes */
+    }
+  }
+  
+     #topmenu {
+        background-color: #D9BFB0;
+        display: flex;
+        justify-content: space-evenly;;
+        align-items: center;
+        height: 70px;
+        width: 100%;
+        position: fixed;
+        top: 28px; /* Ajuste conforme a altura do header */
+        /* z-index: 2; /* Ajuste o z-index conforme necessário */ } */
+     
+.nav-link:hover{
+  color: #2c1e1e;
+}
+
+ul{ justify-content: center; /*não deu certo para alinhar ao meio*/
+  align-items: center; 
+  margin-left: 50px;} 
+  
+
+.collapse{
+  display: flex;
+}
+#Logo{ 
+    align-items: center;
+    }
+
+
+
+
+svg{ color: #8C0303;
+    margin-top: 2px;
+margin-right: 2px;
+margin-left: 5px;
+justify-content: center;}
+
+button { border-color: #d03a3a;
+}
+
+input { background-color: #A67244;}
+.pesquisa{ justify-content: center;
+    align-items: center;
+background-color: #D9BFB0;
+margin-top: 5px;
+border: #8C0303;}
+
+
+body {
+    padding-top: 80px; /* Soma da altura do header e topmenu */
+  }
+
+section article {
+    display: flex;
+    opacity: 65%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    max-width: 300px; /* Define a largura máxima dos artigos */
+  }
+
+  #meio{ display: contents;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    max-width: 300px; }
+    
+section article img {
+  width: 100%; /* Ajusta a largura da imagem para ocupar todo o espaço do contêiner */
+  height: auto; /* Garante que a altura seja ajustada proporcionalmente */
+}
+
+section article:hover { 
+    color: #ff0a0a38;
+    opacity: 100%;
+    }
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+        color: rgb(0, 0, 0);
+      }
+ 
+
+.imagem-minha-div {
+    width: 60%;
+    height: auto;
+}
+
+    .container {
+        display: flex;
+        align-items: center; /* Alinha verticalmente no centro */
+        flex-wrap: wrap;
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+      
+      .imagem img {
+        max-width: 60%;
+        height: auto;
+      
+      }
+      
+      .texto {
+        margin-left: 20px; /* Espaço entre a imagem e o texto */
+        font-size: 18px;
+      }
+      
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column; /* Altera para coluna em telas pequenas */
+      align-items: flex-start; /* Alinha o conteúdo ao início */
+    }
+  
+    .texto {
+      margin-left: 0; /* Remove a margem esquerda no layout de coluna */
+      margin-top: 10px; /* Adiciona espaço entre a imagem e o texto */
+    }
+  }
+
+  form { height: 40px;
+}
+
+  button {
+margin-right: 20px;
+margin-left: 20px;
+}
